@@ -1,0 +1,28 @@
+ResourceID,Field,After,Rule,NeedsOwnerConfirmation
+i-002,Owner,j.smith@cloudmart.com,Owner of the Marketing department,No
+s3-002,Owner,j.smith@cloudmart.com,Owner of the Marketing department,No
+api-002,Owner,j.smith@cloudmart.com,Owner of the Marketing department,No
+ebs-002,Department,Marketing,Account 1001 belongs to Marketing,No
+ebs-002,CostCenter,CC101,Account 1001 bills to CC101,No
+ebs-002,Owner,j.smith@cloudmart.com,Owner of the Marketing department,No
+ebs-002,Project,CampaignApp,"Same account, service and region as ebs-001",Yes
+ebs-002,Environment,Dev,Second copy of a Prod resource (xxx-001 Prod / xxx-002 Dev),Yes
+rds-002,Owner,a.lee@cloudmart.com,Owner of the Sales department,No
+cf-002,Owner,a.lee@cloudmart.com,Owner of the Sales department,No
+ec2-004,Department,Sales,Account 1002 belongs to Sales,No
+ec2-004,CostCenter,CC102,Account 1002 bills to CC102,No
+ec2-004,Owner,a.lee@cloudmart.com,Owner of the Sales department,No
+ec2-004,Project,CRMTool,"Same account, service and region as ec2-003",Yes
+ec2-004,Environment,Dev,Second copy of a Prod resource (xxx-001 Prod / xxx-002 Dev),Yes
+lambda-002,Owner,k.patel@cloudmart.com,Owner of the Analytics department,No
+s3-004,Owner,k.patel@cloudmart.com,Owner of the Analytics department,No
+ddb-002,Owner,k.patel@cloudmart.com,Owner of the Analytics department,No
+ecs-002,Owner,m.tan@cloudmart.com,Owner of the DevOps department,No
+lambda-004,Owner,m.tan@cloudmart.com,Owner of the DevOps department,No
+ec2-007,Owner,m.tan@cloudmart.com,Owner of the DevOps department,No
+cw-002,Owner,l.chen@cloudmart.com,Owner of the Finance department,No
+rds-004,Owner,l.chen@cloudmart.com,Owner of the Finance department,No
+ec2-008,Owner,l.chen@cloudmart.com,Owner of the Finance department,No
+ec2-006,Owner,t.khan@cloudmart.com,Owner of the HR department,No
+s3-006,Owner,t.khan@cloudmart.com,Owner of the HR department,No
+ec2-010,Owner,t.khan@cloudmart.com,Owner of the HR department,No
